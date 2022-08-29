@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header, .footer {
+    background-color: rgb(56, 194, 118);
+    padding: 20px;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#addBtn {
+    margin-left: 20px;
+}
+ul li {
+    list-style: none;
+}
+
+@media screen and (max-width: 575px) {
+    span {
+        position: fixed;
+        right: 35px;
+        border: 1px solid black;
+    }
+    #addBtn {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    form {
+        padding: 25px;
+    }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+    span {
+        position: fixed;
+        right: 50px;
+        border: 1px solid black;
+    }
+    #addBtn {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    form {
+        padding: 25px;
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    span {
+        position: fixed;
+        right: 111px;
+        border: 1px solid black;
+    }
+  }
+  
+@media screen and (min-width: 1025px) {
+    span {
+        position: fixed;
+        right: 300px;
+        border: 1px solid black;
+    }
+  }
